@@ -7,8 +7,6 @@
 
 namespace RED4ext
 {
-
-#pragma pack(push, 4)
 struct WorldPosition
 {
     static constexpr const char* NAME = "WorldPosition";
@@ -53,7 +51,5 @@ struct WorldPosition
     FixedPoint y; // 04
     FixedPoint z; // 08
 };
-#pragma pack(pop)
-
 RED4EXT_ASSERT_SIZE(WorldPosition, 0xC);
 } // namespace RED4ext

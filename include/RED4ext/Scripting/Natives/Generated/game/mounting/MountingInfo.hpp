@@ -18,8 +18,6 @@ struct MountingInfo
     static constexpr const char* NAME = "gamemountingMountingInfo";
     static constexpr const char* ALIAS = "MountingInfo";
 
-    MountingInfo() {}
-
     ent::EntityID childId; // 00
     ent::EntityID parentId; // 08
     game::mounting::MountingSlotId slotId; // 10
